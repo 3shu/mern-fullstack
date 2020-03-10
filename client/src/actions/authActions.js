@@ -41,7 +41,7 @@ export const loginUser = userData => dispatch => {
       })
     );
 };
-// Set logged in user
+// Set logged in user test
 export const setCurrentUser = decoded => {
   return {
     type: SET_CURRENT_USER,
